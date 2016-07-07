@@ -107,7 +107,7 @@ public class MyApplication extends Application {
 //                sMainActivity.refreshLogInfo();
 //            }
             if (!TextUtils.isEmpty(s)) {
-                Toast.makeText(context, s, Toast.LENGTH_LONG).show();
+                Toast.makeText(context, s, Toast.LENGTH_SHORT).show();
             }
         }
     }

@@ -12,7 +12,23 @@
 
     <TextView
             android:id="@+id/tv_registerId"
-            android:text="Alias:pffair"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
+
+    <EditText
+            android:id="@+id/et_set_alias"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_registerId"
+            android:layout_marginTop="5dp"
+            android:hint="设置别名"/>
+
+    <Button
+            android:id="@+id/bt_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="确认"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/et_set_alias"/>
 </RelativeLayout>

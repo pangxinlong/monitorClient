@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">PushDemo</string>
+    <string name="app_name">monitorClient</string>
     <string name="ok">确认</string>
     <string name="cancel">取消</string>
     <string name="set_alias">设置别名</string>
